@@ -1,0 +1,12 @@
+
+[package]
+name = "MyrientDownloader"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = "0.13.2"
+scraper = "0.25.0"
+regex = "1.12.3"
+iced = { version = "0.14.0", features = ["tokio"] }
+rfd = "0.17.2"
